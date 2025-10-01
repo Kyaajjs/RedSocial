@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MySpace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <h1>Conectados</h1>
+  <nav>
+    
+  </nav>
+</header>
+
+<main>
+  
+  <aside class="left">
+    <h2>Perfiles</h2>
+    <ul id="profilesList">
+      <li data-id="1">
+        <a href="perfil1.html">
+          <img src="/images/profile1.jpg" alt="Uli" class="pf">
+        </a>
+        <div class="pinfo">
+          Ulises Zarate
+          <small>Web Designer</small>
+        </div>
+      </li>
+      <li data-id="2">
+        <a href="perfil2.html">
+          <img src="/images/profile2.jpg" alt="Dani" class="pf">
+        </a>
+        <div class="pinfo">
+          Daniela Perez
+          <small>RP de antros</small>
+        </div>
+      </li>
+      <li data-id="3">
+        <a href="perfil3.html">
+          <img src="/images/profile3.jpg" alt="Pedro" class="pf">
+        </a>
+        <div class="pinfo">
+          Pedro Carlo
+          <small>F1 Driver</small>
+        </div>
+      </li>
+    </ul>
+  </aside>
+
+  <section class="center" id="mainContent">
+    <div id="feedView">
+
+      
+      <article class="post">
+        <div class="post-head">
+          <a href="perfil1.html">
+            <img src="/images/profile1.jpg" class="mini" data-profile="1">
+          </a>
+          <div>
+            Ulises Zarate
+            <small>Hace 3 horas · Ciudad</small>
+          </div>
+        </div>
+        <p>Apagón nivel pensión... la CFE en cortinas..</p>
+        <img src="/images/img1.jpeg" alt="publicación 1">
+
+        <div class="comments">
+          <p>Juan Pérez: Hermosa foto!</p>
+          <p>Lucía Ramos: Me encanta la paleta 🔥</p>
+          <p>María: ¡Qué buen lugar!</p>
+          <p>Carlos: Genial composición.</p>
+        </div>
+      </article>
+
+      
+      <article class="post">
+        <div class="post-head">
+          <a href="perfil2.html">
+            <img src="/images/profile2.jpg" class="mini" data-profile="2">
+          </a>
+          <div>
+            Daniela Perez
+            <small>Hace 2 horas · Ciudad</small>
+          </div>
+        </div>
+        <p>Descubrí un café escondido en la ciudad y es mágico ☕✨</p>
+        <img src="/images/dani5" alt="Publicación de Dani">
+
+        <div class="comments">
+          <p>Ana: Qué lindo lugar 😍</p>
+          <p>Luis: Debo ir ahí este fin de semana!</p>
+        </div>
+      </article>
+
+      
+      <article class="post">
+        <div class="post-head">
+          <a href="perfil3.html">
+            <img src="/images/profile3.jpg" class="mini" data-profile="3">
+          </a>
+          <div>
+            Pedro Carlo
+            <small>Hace 1 hora · Circuito</small>
+          </div>
+        </div>
+        <p>Sesión de entrenamiento completada, ¡listo para la próxima carrera! 🏎️💨</p>
+        <img src="/images/pedro1.png" alt="Publicación de Pedro">
+
+        <div class="comments">
+          <p>Carlos: Impresionante tiempo en la pista!</p>
+          <p>María: Vamos Pedro, a romper récords 😎</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <aside class="right">
+    <h2>Chats</h2>
+    <ul>
+      <li>
+        <a href="perfil1.html">
+          <img src="/images/jose.png" class="pf-small">
+        </a>
+        Jose: Hola
+      </li>
+      <li>
+        <a href="perfil2.html">
+          <img src="/images/martin.webp" class="pf-small">
+        </a>
+        Martin: Te paso el repo
+      </li>
+      <li>
+        <a href="perfil3.html">
+          <img src="/images/OIP.webp" class="pf-small">
+        </a>
+        Rebeca: 10K?
+      </li>
+    </ul>
+  </aside>
+</main>
+
+<div class="chat-button" id="chatBtn">...</div>
+
+<script src="script.js"></script>
+  <footer>
+    <p>© 2025 MySpace. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
